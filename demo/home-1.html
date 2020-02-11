@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       <meta name="description" content="">
       <meta name="author" content="">
-      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+      <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
       <title>ergo 7</title>
       <!-- FONTS -->
       <link href='https://fonts.googleapis.com/css?family=Great+Vibes|Raleway|Titillium+Web:400,600,700,900,300,200' rel='stylesheet' type='text/css'>
@@ -22,7 +22,7 @@
       <link rel="stylesheet" type="text/css" href="css/style.css" />
       <link rel="stylesheet" type="text/css" href="css/media.css" />
       <!-- GALLERY -->
-      <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" title="prettyPhoto main stylesheet" />
+      <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" title="" />
       <style>
          svg #base 
          {
@@ -33,13 +33,13 @@
       </style>
    </head>
    <body>
-      <!--START LOADER -->
-      <div id="loader-wrapper">
-         <div id="loader"></div>
-         <div class="loader-section section-left"></div>
-         <div class="loader-section section-right"></div>
-      </div>
-      <!--   END LOADER  -->
+<!--      &lt;!&ndash;START LOADER &ndash;&gt;-->
+<!--      <div id="loader-wrapper">-->
+<!--         <div id="loader"></div>-->
+<!--         <div class="loader-section section-left"></div>-->
+<!--         <div class="loader-section section-right"></div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash;   END LOADER  &ndash;&gt;-->
       <!-- START MENU -->
       <nav id="bt-menu" class="bt-menu">
          <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
@@ -74,13 +74,13 @@
       <!-- END MENU  -->
       <!--LOGO -->
       <div class="navbar-header">
-         <a class="menu-logo" id="top-logo" href="#"><img src="images/logo.png" alt="" title="" width="121" height="50">
+         <a class="menu-logo" id="top-logo"  href="#"><img src="images/logo.png" alt="" title="" width="200">
          </a>
       </div>
       <!-- START CONTENT -->
       <div class="main" id="fullpage">
          <!-- START HOME SECTION -->
-         <section class="l-screen home-section ">
+         <section class="l-screen home-section">
             <div class="container-fluid">
                <!-- START HOME CONTENT -->
                <div id="container" class="wrapper">
@@ -88,10 +88,12 @@
                      <div id="video_slider_content"  class="video-slider" >
                         <div class="bg_pattern"></div>
                         <!-- START VIDEO  -->
-                        <video autoplay loop poster="videos/CheerUp.jpg" id="bgvid">
+                        <video autoplay muted loop id="bgvid" controls>
                            <source src="videos/CheerUp.webm" type="video/webm">
-                           <source src="videos/CheerUp.mp4" type="video/mp4">
+                           <source src="videos/CheerUp.ogg" type="video/ogg">
+<!--                           <source src="videos/CheerUp.mp4" type="video/mp4">-->
                         </video>
+<!--                        <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by pikisuperstar - www.freepik.com</a>-->
                         <!-- END VIDEO  -->
                         <div id="ergo_video_bg" class="text">
                            <svg >
@@ -100,8 +102,7 @@
                                     <!-- ALPHA RECTANGLE -->
                                     <rect id="alpha" x="0" y="0" width="100%" height="100%"/>
                                     <!--ALL TEXT YOU WANT -->
-                                    <text id="title" x="50%" y="45%">ergo7</text>
-                                    <text id="subtitle" x="50%" y="65%" >YOU ARE THE DJ YOUR LIFE IS THE PARTY</text>
+                                    <text id="title" style="text-transform: uppercase" x="50%" y="45%">N i r v a n a</text>
                                  </mask>
                               </defs>
                               <rect id="base" x="0" y="0" width="100%" height="100%"/>
@@ -123,7 +124,7 @@
                   <div class="row vertical-center">
                      <div id="timeline-wrap">
                         <header class="top-bar">
-                           <h2 class="top-bar__headline">Our Timeline</h2>
+                           <h1 style="text-transform: uppercase;" class="top-bar__headline">O u r  &nbsp;T i m e l i n e</h1>
                         </header>
                         <div class="wrap-container">
                            <!-- START TIMELINE-->
@@ -1039,7 +1040,7 @@
       </div>
       <!-- END MAIN DIV -->
       <script src="js/jquery-3.1.1.min.js"></script>
-      <script src="js/jquery-migrate.min.js"></script>
+<!--      <script src="js/jquery-migrate.min.js"></script>-->
       <script src="js/jquery-ui.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/iscroll.js"></script>
